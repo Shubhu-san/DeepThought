@@ -1,0 +1,8 @@
+The Test Cases are as follows:
+1. Test successful login with valid credentials - Here I have provided the valid credentials to check whether i am able to login or not.
+2. Test unsuccessful login attempts with invalid credentials - Here I provided worng credentials to ensure that i cant login.
+3. Validate that appropriate error messages are displayed for invalid login attempts - Here i am checking after trying to log in with invalid credentials does the warnimg message pop ups or not.
+4. On successful login, validate that the user is redirected to the dashboard screen - Here i am checking whether i am getting redirected to the dashboard after successfully logging in.
+
+
+The challenges I faced while during the testing is that i was having difficulties in running the tests in 2 browsers simultaneously but i did some research on the internet found the solution by using 'testcafe "chrome,firefox" tests/login.js'. 
